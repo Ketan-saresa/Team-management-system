@@ -1,4 +1,4 @@
-Github IMP
+Github IMP instructions
 
 
 download github from    https://desktop.github.com
