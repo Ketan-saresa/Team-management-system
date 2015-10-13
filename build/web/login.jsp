@@ -99,10 +99,6 @@
                                 <input type="email" class="form-control text-input required email" placeholder="Email" id="email"/>
                                 <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
                             </div>
-                            <div class="form-group has-feedback">
-                                <input type="text" class="form-control text-input required" placeholder="Institute Name" id="institute_name"/>
-                                <span class="glyphicons glyphicons-factory form-control-feedback">?</span>
-                            </div>
                             <div class="form-group has-feedback" id="Pass-1" >
                                 <input type="password" class="form-control text-input required password" placeholder="Password" id="pass-1"/>
                                 <span class="glyphicon glyphicon-lock form-control-feedback"></span>
@@ -111,15 +107,12 @@
                                 <input type="password" class="form-control text-input required password" placeholder="Retype password" id="pass-2"/>
                                 <span class="glyphicon glyphicon-log-in form-control-feedback"></span>
                             </div>
-                            <div class="row">
-                                <div class="col-xs-8"  id="check1">    
-                                    <div class="checkbox icheck">
-                                        <label>
-                                            <input type="checkbox" id="Agree" /><strong style="font-size: smaller;">I agree to the <a target="_blank" id="TosLink" href="#">Terms of Service</a> and <a target="_blank" id="PrivacyLink" href="#">Privacy Policy</a></strong>
-                                            <br /><span class="errormsg" id="errormsg_0_TermsOfService">In order to use our services, you must agree to Terms of Service.</span>
-                                        </label>
-                                    </div>                        
-                                </div><!-- /.col -->
+                            <div style="float: left; padding-right: 16%; padding-bottom: 10%">
+                                <label class="radio1" style="padding-right:10px"><span></span>Gender:</label>
+                                <input type="radio" id="radio01" name="radio" />
+                                <label for="radio01" style="padding-right:10px"><span></span>Male</label>
+                                <input type="radio" id="radio02" name="radio" />
+                                <label for="radio02"><span></span>Female</label>
                             </div>
                             <div class="action_btns">
                                 <div class="one_half"><a href="#" class="btn_submit btn btn_red">Register</a></div>
@@ -281,7 +274,6 @@
                 $(".header_title").text('Register As Professor');
                 return false;
             });
-
             $(".btn_mentor").click(function () {
                 $(".login-box-body").hide();
                 $(".social_login1").hide();

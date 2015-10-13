@@ -42,7 +42,6 @@ a.btn_red {color: #FFF;}
 .user_login input[type="text"], .user_login input[type="email"], .user_login input[type="password"] {display: block; width:90%; padding: 10px; border:1px solid #DDD; color:#666;}
 .user_login input[type="checkbox"] {float:left; margin-right:5px;}
 .user_login input[type="checkbox"]+label {float:left;}
-
 .user_login .checkbox {margin-bottom: 10px; clear: both;}
 .forgot_password {display:block; margin: 20px 0 10px; clear: both; overflow: hidden; text-decoration: none; color:#ED6347;}
 
@@ -103,7 +102,7 @@ body {font-family: 'Source Sans Pro', sans-serif; font-size: 14px; color: #666;}
 
 .popupContainer{
 	position:absolute center;
-	width: 300px;
+	width: 400px;
 	height: auto;
 	left:45%;
 	top:80px;
