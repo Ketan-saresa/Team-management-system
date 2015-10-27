@@ -18,12 +18,9 @@
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <!-- Theme style -->
         <link href="dist/css/AdminLTE.min.css" rel="stylesheet" type="text/css" />
-        <!-- iCheck -->
         <link href="plugins/iCheck/square/blue.css" rel="stylesheet" type="text/css" />
         <link type="text/css" rel="stylesheet" href="plugins/Login/login.css" />
         <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" />
-
-
     </head>
     <body class="login-page">
         <div class="container">
@@ -79,9 +76,9 @@
                     <div class="social_login1">
                         <div class="row">
                             <div class="action_btns"><center>
-                                    <br/><div><center><img src="img/student-512.png" width="50px" height="50px" style="cue-after: !important;" /></center><br /><a href="#" id="Student_signup" class="btn btn-primary btn-block btn-flat btn_student" style="color:white;width:150px;">Student</a></div>
-                                    <br/><div><center><img src="img/prof-512.png" width="50px" height="50px" style="cue-after: !important;" /></center><br /><a href="#" id="Prof_signup" class="btn btn-primary btn-block btn-flat btn_prof" style="color:white;width:150px;">Professor</a></div>				
-                                    <br/><div><center><img src="img/Teacher-male.png" width="50px" height="50px" style="cue-after: !important;" /></center><br /><a href="#" id="Mentor_signup" class="btn btn-primary btn-block btn-flat btn_mentor" style="color:white;width:150px;">Mentor</a></div>				
+                                    <br/><div><center><img src="img/student-512.png" width="50px" height="50px"/></center><br /><a href="#" id="Student_signup" class="btn btn-primary btn-block btn-flat btn_student" style="color:white;width:150px;">Student</a></div>
+                                    <br/><div><center><img src="img/prof-512.png" width="50px" height="50px" /></center><br /><a href="#" id="Prof_signup" class="btn btn-primary btn-block btn-flat btn_prof" style="color:white;width:150px;">Professor</a></div>				
+                                    <br/><div><center><img src="img/Teacher-male.png" width="50px" height="50px"/></center><br /><a href="#" id="Mentor_signup" class="btn btn-primary btn-block btn-flat btn_mentor" style="color:white;width:150px;">Mentor</a></div>				
                                 <br/></div>
                             </center>
                         </div>
@@ -141,7 +138,7 @@
                                 <input type="password" class="form-control text-input required password" placeholder="Retype password" id="pass_mentor2"/>
                                 <span class="glyphicon glyphicon-log-in form-control-feedback"></span>
                             </div>
-                            
+
                             <div class="action_btns">
                                 <div class="one_half"><a href="#" class="btn btn_submit_mentor btn_red">Register</a></div>
                                 <div class="one_half last"><a href="#" class="btn back_btn_register" style="color:white;">Back</a></div>
@@ -181,36 +178,6 @@
         <script>
             $("#modal_trigger_login").leanModal({top: 100, overlay: 0.7, closeButton: ".modal_close"});
             $("#modal_trigger_register").leanModal({top: 100, overlay: 0.7, closeButton: ".modal_close"});
-
-            $('.btn_submit').click(function (e) {
-                var check = document.getElementById('Agree');
-                if (!check.checked) {
-                    $(".errormsg").show();
-                }
-                else {
-                    $(".errormsg").hide();
-                }
-            });
-
-            $('.btn_submit_mentor').click(function (e) {
-                var check = document.getElementById('Agree_mentor');
-                if (!check.checked) {
-                    $(".errormsg").show();
-                }
-                else {
-                    $(".errormsg").hide();
-                }
-            });
-
-            $('.btn_submit_prof').click(function (e) {
-                var check = document.getElementById('Agree_prof');
-                if (!check.checked) {
-                    $(".errormsg").show();
-                }
-                else {
-                    $(".errormsg").hide();
-                }
-            });
 
             $(".btn_login_home").click(function () {
                 $(".social_login").hide();
