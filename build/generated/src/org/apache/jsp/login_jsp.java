@@ -184,16 +184,7 @@ public final class login_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                                <input type=\"password\" class=\"form-control text-input required password\" placeholder=\"Retype password\" id=\"pass_mentor2\"/>\r\n");
       out.write("                                <span class=\"glyphicon glyphicon-log-in form-control-feedback\"></span>\r\n");
       out.write("                            </div>\r\n");
-      out.write("                            <div class=\"row\">\r\n");
-      out.write("                                <div class=\"col-xs-8\"  id=\"check1\">    \r\n");
-      out.write("                                    <div class=\"checkbox icheck\">\r\n");
-      out.write("                                        <label>\r\n");
-      out.write("                                            <input type=\"checkbox\" id=\"Agree_mentor\" /><strong style=\"font-size: smaller;\">I agree to the <a target=\"_blank\" id=\"TosLink\" href=\"#\">Terms of Service</a> and <a target=\"_blank\" id=\"PrivacyLink\" href=\"#\">Privacy Policy</a></strong>\r\n");
-      out.write("                                            <br /><span class=\"errormsg\" id=\"errormsg_0_TermsOfService\">In order to use our services, you must agree to Terms of Service.</span>\r\n");
-      out.write("                                        </label>\r\n");
-      out.write("                                    </div>                        \r\n");
-      out.write("                                </div><!-- /.col -->\r\n");
-      out.write("                            </div>\r\n");
+      out.write("                            \r\n");
       out.write("                            <div class=\"action_btns\">\r\n");
       out.write("                                <div class=\"one_half\"><a href=\"#\" class=\"btn btn_submit_mentor btn_red\">Register</a></div>\r\n");
       out.write("                                <div class=\"one_half last\"><a href=\"#\" class=\"btn back_btn_register\" style=\"color:white;\">Back</a></div>\r\n");
