@@ -29,7 +29,6 @@
         <div class="container">
             <a id="modal_trigger_login" href="#modal-login" class="btn btn_login_home">Login</a>
             <a id="modal_trigger_register" href="#modal-register" class="btn btn_register_home">Register</a>
-
             <div id="modal-login" class="popupContainer" style="display:none;">
                 <header class="popupHeader">
                     <span class="header_title">Sign In</span>
