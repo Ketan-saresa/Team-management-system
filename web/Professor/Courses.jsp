@@ -7,35 +7,36 @@
         <title>Team Management System</title>
         <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
         <!-- Bootstrap 3.3.4 -->
-        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />    
+        <link href="../bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+
         <!-- FontAwesome 4.3.0 -->
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <!-- Ionicons 2.0.0 -->
         <link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css" />    
         <!-- Theme style -->
-        <link href="dist/css/AdminLTE.min.css" rel="stylesheet" type="text/css" />
+        <link href="../dist/css/AdminLTE.min.css" rel="stylesheet" type="text/css" />
         <!-- AdminLTE Skins. Choose a skin from the css/skins 
              folder instead of downloading all of them to reduce the load. -->
-        <link href="dist/css/skins/_all-skins.min.css" rel="stylesheet" type="text/css" />
+        <link href="../dist/css/skins/_all-skins.min.css" rel="stylesheet" type="text/css" />
         <!-- iCheck -->
-        <link href="plugins/iCheck/flat/blue.css" rel="stylesheet" type="text/css" />
+        <link href="../plugins/iCheck/flat/blue.css" rel="stylesheet" type="text/css" />
         <!-- Morris chart -->
-        <link href="plugins/morris/morris.css" rel="stylesheet" type="text/css" />
+        <link href="../plugins/morris/morris.css" rel="stylesheet" type="text/css" />
         <!-- jvectormap -->
-        <link href="plugins/jvectormap/jquery-jvectormap-1.2.2.css" rel="stylesheet" type="text/css" />
+        <link href="../plugins/jvectormap/jquery-jvectormap-1.2.2.css" rel="stylesheet" type="text/css" />
         <!-- Date Picker -->
-        <link href="plugins/datepicker/datepicker3.css" rel="stylesheet" type="text/css" />
-        <!-- Daterange picker -->
-        <link href="plugins/daterangepicker/daterangepicker-bs3.css" rel="stylesheet" type="text/css" />
-        <!-- bootstrap wysihtml5 - text editor -->
-        <link href="plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" rel="stylesheet" type="text/css" />
+        <link href="../plugins/datepicker/datepicker3.css" rel="stylesheet" type="text/css" />
 
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
+        <link href="../plugins/daterangepicker/daterangepicker-bs3.css" rel="stylesheet" type="text/css" />
+
+        <link href="../plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" rel="stylesheet" type="text/css" />
+
+        <link type="text/css" rel="stylesheet" href="../plugins/Login/login.css" />
+        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" />
+        <script src="../plugins/jQuery/jQuery-2.1.4.min.js" type="text/javascript"></script>
+        <script src="../plugins/jQuery/jquery.leanModal.min.js" type="text/javascript" ></script>
+        <script  src="../plugins/jQuery/jquery.leanModal.min.js" type="text/javascript"></script>
+
     </head>
     <body class="skin-blue sidebar-mini">
         <div class="wrapper">
@@ -247,13 +248,13 @@
                             <!-- User Account: style can be found in dropdown.less -->
                             <li class="dropdown user user-menu">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                    <img src="dist/img/user2-160x160.jpg" class="user-image" alt="User Image"/>
+                                    <img src="../dist/img/user2-160x160.jpg" class="user-image" alt="User Image"/>
                                     <span class="hidden-xs">Alexander Pierce</span>
                                 </a>
                                 <ul class="dropdown-menu">
                                     <!-- User image -->
                                     <li class="user-header">
-                                        <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image" />
+                                        <img src="../dist/img/user2-160x160.jpg" class="img-circle" alt="User Image" />
                                         <p>
                                             Alexander Pierce - Web Developer
                                             <small>Member since Nov. 2012</small>
@@ -297,7 +298,7 @@
                     <!-- Sidebar user panel -->
                     <div class="user-panel">
                         <div class="pull-left image">
-                            <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image" />
+                            <img src="../dist/img/user2-160x160.jpg" class="img-circle" alt="User Image" />
                         </div>
                         <div class="pull-left info">
                             <p>Alexander Pierce</p>
@@ -318,16 +319,15 @@
                     <!-- sidebar menu: : style can be found in sidebar.less -->
                     <ul class="sidebar-menu">
                         <li class="header">MAIN NAVIGATION</li>
-                        <li class="active treeview">
+                        <li class="treeview">
                             <a href="../index.jsp">
                                 <i class="fa fa-dashboard"></i> <span>Dashboard</span> </i>
                             </a>
 
                         </li>
-
-                        <li class="treeview">
+                        <li class="active treeview">
                             <a href="../Professor/Courses.jsp">
-                                <i class="fa fa-tasks"></i>
+                                <i class="fa fa-book"></i>
                                 <span>Courses</span>
                             </a>
                         </li>
@@ -355,112 +355,193 @@
             <!-- Content Wrapper. Contains page content -->
             <div class="content-wrapper">
                 <!-- Content Header (Page header) -->
-
-                <ol class="breadcrumb">
-                    <li><a href="index.jsp"><i class="fa fa-dashboard"></i> Home</a></li>
-                    <li class="active">Profile</li>
-                </ol>
+                <section class="content-header">
+                    <h1>
+                        Courses
+                    </h1>
+                    <ol class="breadcrumb">
+                        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+                        <li class="active">Courses</li>
+                    </ol>
                 </section>
 
                 <!-- Main content -->
-                <!-- Main row -->
-                <div class="row">
-                    <!-- Left col -->
-                    <section class="col-lg-7 connectedSortable">
+                <section class="content">
+                    <!-- Small boxes (Stat box) -->
+                    <div class="row">
+                        <div class="col-lg-3 col-xs-6">
+                            <!-- small box -->
+                            <div class="small-box bg-light-blue" style="height: 140px">
+                                <div class="inner">
 
-                        <!-- RECENT TASKS -->
+                                    <h3>Course 1</h3>
+                                    <p>
 
-                        <div class="box box-primary" style="width: 173%;">
-                            <div class="box-header">
-                                <i class="fa fa-tasks"></i>
-                                <ul class="nav nav-tabs">
-
-                                    <li><a class="active"  href="#PersonalDetails">Personal Details</a></li>
-                                    <li><a href="#EducationalDetails">Educational Details</a></li>
-                                </ul>
-
-                            </div>
-                            <div class="box-body" id="PersonalDetails">
-                                <h3 class="box-title">Personal Details <button class="btn btn-default pull-right">Edit</button></h3>
-                                <%--
-                                     <button class="btn btn-default pull-right">Edit</button>
-                                --%>
-                                <ul class="todo-list">
-
-                                    <li>
-                                        <span class="text">Name </span>
-                                        <span class="text" style="margin-left: 420px;padding-left: 66px;">
-                                            <input type="text" id="txtName" readonly="true" /> 
-                                        </span>
-                                    </li>
-                                    <li>
-                                        <span class="text">Email</span>
-                                        <span class="text" style="margin-left: 420px;padding-left: 66px;">
-                                            <input type="text" id="txtEmail" readonly="true" /> 
-                                        </span>
-                                    </li>
-                                    <li>
-                                        <span class="text">Institute Name</span>
-                                        <span class="text" style="margin-left:365px;padding-left: 66px;">
-                                            <input type="text" id="txtInstituteName" readonly="true" />
-
-                                        </span>
-                                    </li>
-                                    <li>
-                                        <span class="text">New Password</span>
-                                        <span class="text" style="margin-left: 365px;padding-left: 66px;">
-                                            <input type="text" id="txtNewPassword" readonly="true"/> 
-                                        </span>
-                                    </li>
-
-                                </ul>
-                                <div class="box-footer clearfix no-border">
-                                    <button class="btn btn-default pull-right">Reset</button>&nbsp;
-                                    <button class="btn btn-default pull-right">Save</button>
+                                    </p>
                                 </div>
-                            </div>
-                            <div class="box-body" id="EducationalDetails">
-                                <h3 class="box-title">Educational Details<button class="btn btn-default pull-right">Edit</button></h3>  
-                                <ul class="todo-list">
+                                <div class="icon">
+                                    <i class="fa fa-book" ></i>
+                                    <%-- <img src="../dist/img/books.png" style="height: 80px" alt="User Image"/>--%>
 
-                                    <li>
-                                        <span class="text">Name </span>
-                                        <span class="text" style="margin-left: 420px;padding-left: 66px;">
-                                            <input type="text" id="txtName" readonly="true" /> 
-                                        </span>
-                                    </li>
-                                    <li>
-                                        <span class="text">Email</span>
-                                        <span class="text" style="margin-left: 420px;padding-left: 66px;">
-                                            <input type="text" id="txtEmail" readonly="true" /> 
-                                        </span>
-                                    </li>
-                                    <li>
-                                        <span class="text">Institute Name</span>
-                                        <span class="text" style="margin-left:365px;padding-left: 66px;">
-                                            <input type="text" id="txtInstituteName" readonly="true" />
-
-                                        </span>
-                                    </li>
-                                    <li>
-                                        <span class="text">New Password</span>
-                                        <span class="text" style="margin-left: 365px;padding-left: 66px;">
-                                            <input type="text" id="txtNewPassword" readonly="true" /> 
-                                        </span>
-                                    </li>
-
-                                </ul>
-                                <div class="box-footer clearfix no-border">
-                                    <button class="btn btn-default pull-right">Reset</button>&nbsp;
-                                    <button class="btn btn-default pull-right">Save</button>
                                 </div>
+                                <a href="../Profile.jsp" class="small-box-footer" style="padding-top: 9px;margin-top: 33px;height: 35px;">More info <i class="fa fa-arrow-circle-right"></i></a>
                             </div>
+                        </div><!-- ./col -->
+                        <div class="col-lg-3 col-xs-6">
+                            <!-- small box -->
+                            <div class="small-box bg-light-blue" style="height: 140px">
+                                <div class="inner">
+                                    <h3>Course 2</h3>
+                                    <p>      </p>
+                                </div>
+                                <div class="icon">
+                                    <i class="fa fa-book" ></i>
+                                    <%-- <img src="../dist/img/books.png" style="height: 80px" alt="User Image"/>--%>
+
+                                </div>
+                                <a href="#" class="small-box-footer" style="padding-top: 9px;margin-top: 33px;height: 35px;">More info <i class="fa fa-arrow-circle-right"></i></a>
+                            </div>
+                        </div><!-- ./col -->
+                        <div class="col-lg-3 col-xs-6" >
+                            <!-- small box -->
+                            <div class="small-box bg-light-blue" style="height: 140px">
+                                <div class="inner">
+                                    <h3>Course 3</h3>
+                                    <p></p>
+                                </div>
+                                <div class="icon">
+                                    <i class="fa fa-book" ></i>
+                                    <%-- <img src="../dist/img/books.png" style="height: 80px" alt="User Image"/> --%>
+                                </div>
+                                <a href="#" class="small-box-footer" style="padding-top: 9px;margin-top: 33px;height: 35px;">More info <i class="fa fa-arrow-circle-right"></i></a>
+                            </div>
+                        </div><!-- ./col -->
+                        <div class="col-lg-3 col-xs-6">
+                            <!-- small box -->
+                            <div class="small-box bg-light-blue" style="height: 140px">
+                                <div class="inner">
+                                    <h3>Course 4</h3>
+                                    <p></p>
+                                </div>
+                                <div class="icon">
+                                    <i class="fa fa-book" ></i>
+                                    <%--<img src="../dist/img/books.png" style="height: 80px" alt="User Image"/>--%>
+                                </div>
+                                <a href="#" class="small-box-footer" style="padding-top: 9px;margin-top: 33px;height: 35px;">More info <i class="fa fa-arrow-circle-right"></i></a>
+                            </div>
+                        </div><!-- ./col -->
+                    </div><!-- /.row -->
+                    <div class="row">
+                        <div class="col-lg-3 col-xs-6">
+                            <!-- small box -->
+                            <div class="small-box bg-light-blue" style="height: 140px">
+                                <div class="inner">
+
+                                    <h3>Course 1</h3>
+                                    <p>
+
+                                    </p>
+                                </div>
+                                <div class="icon">
+                                    <%--i class="fa fa-book" ></i>--%>
+                                    <img src="../dist/img/books.png" style="height: 80px" alt="User Image"/>
+
+                                </div>
+                                <a href="../Profile.jsp" class="small-box-footer" style="padding-top: 9px;margin-top: 33px;height: 35px;">More info <i class="fa fa-arrow-circle-right"></i></a>
+                            </div>
+                        </div><!-- ./col -->
+                        <div class="col-lg-3 col-xs-6">
+                            <!-- small box -->
+                            <div class="small-box bg-light-blue" style="height: 140px">
+                                <div class="inner">
+                                    <h3>Course 2</h3>
+                                    <p>      </p>
+                                </div>
+                                <div class="icon">
+                                    <%--  <i class="fa fa-book" ></i>--%>
+                                    <img src="../dist/img/books.png" style="height: 80px" alt="User Image"/>
+
+                                </div>
+                                <a href="#" class="small-box-footer" style="padding-top: 9px;margin-top: 33px;height: 35px;">More info <i class="fa fa-arrow-circle-right"></i></a>
+                            </div>
+                        </div><!-- ./col -->
+                        <div class="col-lg-3 col-xs-6" >
+                            <!-- small box -->
+                            <div class="small-box bg-light-blue" style="height: 140px">
+                                <div class="inner">
+                                    <h3>Course 3</h3>
+                                    <p></p>
+                                </div>
+                                <div class="icon">
+                                    <%--<i class="fa fa-book" ></i>--%>
+                                    <img src="../dist/img/books.png" style="height: 80px" alt="User Image"/>
+                                </div>
+                                <a href="#" class="small-box-footer" style="padding-top: 9px;margin-top: 33px;height: 35px;">More info <i class="fa fa-arrow-circle-right"></i></a>
+                            </div>
+                        </div><!-- ./col -->
+                        <div class="col-lg-3 col-xs-6">
+                            <!-- small box -->
+                            <div class="small-box bg-light-blue" style="height: 140px">
+                                <div class="inner">
+                                    <h3>Course 4</h3>
+                                    <p></p>
+                                </div>
+                                <div class="icon">
+                                    <%--<i class="fa fa-book" ></i>--%>
+                                    <img src="../dist/img/books.png" style="height: 80px" alt="User Image"/>
+                                </div>
+                                <a href="#" class="small-box-footer" style="padding-top: 9px;margin-top: 33px;height: 35px;">More info <i class="fa fa-arrow-circle-right"></i></a>
+                            </div>
+                        </div><!-- ./col -->
+                    </div>
+                    <!-- Main row -->
+                    <div class="row" style="padding-left: 510px; display: block">
+                        <!-- Left col -->
+                        <!-- /.Left col -->
+                        <!-- right col (We are only adding the ID to make the widgets sortable)-->
+                        <!-- right col -->
+
+                        <%--<button id="btnAddCourse"   style="text-align: center" class="btn-github" >Add Course</button>--%>
+
+                        <a id="modal_trigger_login" href="#modal-login" class="btn btn_login_home">Add Course</a>
+                        <div id="modal-login" class="popupContainer" style="display:none;">
+                            <header class="popupHeader">
+                                <span class="header_title">Courses</span>
+                                <span class="modal_close"><i class="fa fa-times"></i></span>
+                            </header>
+
+                            <section class="popupBody">
+                                <!-- Username & Password Login form -->
+                                <div class="login-box-body">
+                                    <form action="index2.html" method="post" id="register" class="styled">
+                                        <div class="form-group has-feedback">
+                                            <input type="email" class="form-control required" placeholder="Email"/>
+                                            <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+                                        </div>
+                                        <div class="form-group has-feedback">
+                                            <input type="password" class="form-control required" placeholder="Password"/>
+                                            <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xs-8">    
+                                                <div class="checkbox icheck">
+                                                    <label>
+                                                        <input type="checkbox"> Remember Me
+                                                    </label>
+                                                </div>                        
+                                            </div><!-- /.col -->
+                                            <center>
+                                                <div class="action_btns">
+                                                    <div class="row"><a href="#" class="btn_login btn btn_red" style="width:120px">Login</a></div>
+                                                </div>
+                                            </center>
+                                        </div>
+                                    </form>
+                                    <a href="#" class="forgot_password">Forgot password?</a>
+                                </div>
+                            </section>
                         </div>
-                        <!-- quick email widget -->
-                    </section><!-- /.Left col -->
-                    <!-- right col (We are only adding the ID to make the widgets sortable)-->
-                    <!-- right col -->
-                </div><!-- /.row (main row) -->
+                    </div><!-- /.row (main row) -->
 
                 </section><!-- /.content -->
             </div><!-- /.content-wrapper -->
@@ -678,5 +759,21 @@
 
         <!-- AdminLTE for demo purposes -->
         <script src="dist/js/demo.js" type="text/javascript"></script>
+        <script>
+            $("#modal_trigger_login").leanModal({top: 100, overlay: 0.7, closeButton: ".modal_close"});
+            
+            
+             $(".btn_login_home").click(function () {
+                $(".social_login").hide();
+                $(".login-box-body").show();
+                $(".register-box-body-student").hide();
+                $(".register-box-body-prof").hide();
+                $(".errormsg").hide();
+                $(".social_login1").hide();
+                $(".register-box-body-mentor").hide();
+                $(".header_title").text('Sign In');
+                return false;
+            });
+</script>
     </body>
 </html>
