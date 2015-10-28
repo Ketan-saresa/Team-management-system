@@ -360,9 +360,8 @@ folder instead of downloading all of them to reduce the load. -->
                     </ol>
                 </section>
                 <div class="row">
-                    <form action="" class="navbar-form ">
-
-                    <div class="input-group navbar-right" style="margin-right:4%;width: 33%">
+                                  <form action="" class="navbar-form ">
+                    <div class="input-group navbar-right" style="margin-right: -2%;width: 33%">
                         <input type="Search" placeholder="Search..." class="form-control" />
                         <div class="input-group-btn">
                             <button class="btn btn-info">
@@ -373,12 +372,13 @@ folder instead of downloading all of them to reduce the load. -->
                 </form>
                 <br/>
                 <br/>
+
                 </div>
                 <!-- Main content -->
-                <section class="content" style="margin-left:5%">
+                <section class="content">
                     <!-- Small boxes (Stat box) -->
                     <div class="row">
-                        <div class="Course_block col-lg-3 col-xs-6">
+                        <div class="col-lg-3 col-xs-6">
                             <!-- small box -->
                             <div class="small-box bg-light-blue-active">
                                 <div class="inner">
@@ -391,37 +391,50 @@ folder instead of downloading all of them to reduce the load. -->
                                 <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
                             </div>
                         </div><!-- ./col -->
-                        <div class="Course_block col-lg-3 col-xs-6 ">
+                        <div class="col-lg-3 col-xs-6 ">
                             <!-- small box -->
-                            <div class="small-box bg-green">
+                            <div class="small-box bg-light-blue">
                                 <div class="inner">
                                     <h3>Course 2<sup style="font-size: 20px"></sup></h3>
                                     <p>Course Details</p>
                                 </div>
                                 <div class="icon">
-                                    <i class="ion ion-stats-bars"></i>
+                                    <i class="ion ion-ios-book"></i>
                                 </div>
                                 <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
                             </div>
                         </div><!-- ./col -->
-                        <div class="Course_block col-lg-3 col-xs-6">
+                        <div class="col-lg-3 col-xs-6">
                             <!-- small box -->
-                            <div class="small-box bg-yellow">
+                            <div class="small-box bg-light-blue">
                                 <div class="inner">
                                     <h3>Course 3</h3>
                                     <p>Course Details</p>
                                 </div>
                                 <div class="icon">
-                                    <i class="ion ion-person-add"></i>
+                                    <i class="ion ion-ios-book"></i>
+                                </div>
+                                <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-xs-6">
+                            <!-- small box -->
+                            <div class="small-box bg-light-blue">
+                                <div class="inner">
+                                    <h3>Course 3</h3>
+                                    <p>Course Details</p>
+                                </div>
+                                <div class="icon">
+                                    <i class="ion ion-ios-book"></i>
                                 </div>
                                 <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
                             </div>
                         </div><!-- ./col -->
                     </div><!-- ./col -->
-                    <div class="row">
-                        <div class="Course_block col-lg-3 col-xs-6">
+                        <div class="row">
+                        <div class="col-lg-3 col-xs-6">
                             <!-- small box -->
-                            <div class="small-box bg-aqua">
+                            <div class="small-box bg-light-blue-active">
                                 <div class="inner">
                                     <h3>Course 1</h3>
                                     <p>Course Details</p>
@@ -432,34 +445,46 @@ folder instead of downloading all of them to reduce the load. -->
                                 <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
                             </div>
                         </div><!-- ./col -->
-                        <div class="Course_block col-lg-3 col-xs-6 ">
+                        <div class="col-lg-3 col-xs-6 ">
                             <!-- small box -->
-                            <div class="small-box bg-green">
+                            <div class="small-box bg-light-blue">
                                 <div class="inner">
-                                    <h3>53<sup style="font-size: 20px"></sup></h3>
-                                    <p>Bounce Rate</p>
+                                    <h3>Course 2<sup style="font-size: 20px"></sup></h3>
+                                    <p>Course Details</p>
                                 </div>
                                 <div class="icon">
-                                    <i class="ion ion-stats-bars"></i>
+                                    <i class="ion ion-ios-book"></i>
                                 </div>
                                 <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
                             </div>
                         </div><!-- ./col -->
-                        <div class="Course_block col-lg-3 col-xs-6">
+                        <div class="col-lg-3 col-xs-6">
                             <!-- small box -->
-                            <div class="small-box bg-yellow">
+                            <div class="small-box bg-light-blue">
                                 <div class="inner">
-                                    <h3>44</h3>
-                                    <p>User Registrations</p>
+                                    <h3>Course 3</h3>
+                                    <p>Course Details</p>
                                 </div>
                                 <div class="icon">
-                                    <i class="ion ion-person-add"></i>
+                                    <i class="ion ion-ios-book"></i>
+                                </div>
+                                <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-xs-6">
+                            <!-- small box -->
+                            <div class="small-box bg-light-blue">
+                                <div class="inner">
+                                    <h3>Course 3</h3>
+                                    <p>Course Details</p>
+                                </div>
+                                <div class="icon">
+                                    <i class="ion ion-ios-book"></i>
                                 </div>
                                 <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
                             </div>
                         </div><!-- ./col -->
                     </div><!-- ./col -->
-
                     <!-- Main row -->
                 </section><!-- /.content -->
             </div><!-- /.content-wrapper -->

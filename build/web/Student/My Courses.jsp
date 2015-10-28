@@ -349,18 +349,17 @@
             <div class="content-wrapper">
                 <!-- Content Header (Page header) -->
                 <section class="content-header">
-                    <h3>
-                        <ol class="breadcrumb">
-                            <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-                            <li class="active">My Courses</li>
+                    <h1>My Courses
+                    </h1>
+                    <ol class="breadcrumb">
+                        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+                        <li class="active">My Courses</li>
 
-
-                        </ol>
-                    </h3>  
+                    </ol>
                 </section>
-                <form action="" class="navbar-form ">
 
-                    <div class="input-group navbar-right" style="margin-right:4%;width: 33%">
+                <form action="" class="navbar-form ">
+                    <div class="input-group navbar-right" style="margin-right: -2%;width: 33%">
                         <input type="Search" placeholder="Search..." class="form-control" />
                         <div class="input-group-btn">
                             <button class="btn btn-info">
@@ -371,85 +370,120 @@
                 </form>
                 <br/>
                 <br/>
-                <center>
-                    <!-- Main content -->
-                    <section class="content middle" style="margin-left:5%">
-                        <!-- Small boxes (Stat box) -->
-                        <div class="row">
-                            <div class="Course_block col-lg-3 col-xs-6">
-                                <!-- small box -->
-                                <div class="small-box bg-aqua">
-                                    <div class="inner">
-                                        <h3><a href="#"><span style="color:white">1</span></a></h3>
-                                        <p>PHD</p>
-                                    </div>
-
-                                    <a href="../Student/Courses_details.jsp" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+                <!-- Main content -->
+                <section class="content middle">
+                    <!-- Small boxes (Stat box) -->
+                    <div class="row">
+                        <div class="col-lg-3 col-xs-6">
+                            <!-- small box -->
+                            <div class="small-box bg-light-blue-active">
+                                <div class="inner">
+                                    <h3>Course 1</h3>
+                                    <p>Course Details</p>
                                 </div>
-                            </div><!-- ./col -->
-                            <div class="Course_block col-lg-3 col-xs-6">
-                                <!-- small box -->
-                                <div class="small-box bg-green">
-                                    <div class="inner">
-                                        <h3><a href="#"><span style="color:white">2</span></a></h3>
-                                        <p>PHD</p>
-                                    </div>
-
-                                    <a href="../Student/Courses_details.jsp" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+                                <div class="icon">
+                                    <i class="ion-ios-book"></i>
                                 </div>
-                            </div><!-- ./col -->
-                            <div class="Course_block col-lg-3 col-xs-6">
-                                <!-- small box -->
-                                <div class="small-box bg-yellow">
-                                    <div class="inner">
-                                        <h3><a href="#"><span style="color:white">3</span></a></h3>
-                                        <p>MscIT</p>
-                                    </div>
-
-                                    <a href="../Student/Courses_details.jsp" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+                                <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+                            </div>
+                        </div><!-- ./col -->
+                        <div class="col-lg-3 col-xs-6 ">
+                            <!-- small box -->
+                            <div class="small-box bg-light-blue">
+                                <div class="inner">
+                                    <h3>Course 2<sup style="font-size: 20px"></sup></h3>
+                                    <p>Course Details</p>
                                 </div>
-                            </div><!-- ./col -->
+                                <div class="icon">
+                                    <i class="ion ion-ios-book"></i>
+                                </div>
+                                <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+                            </div>
+                        </div><!-- ./col -->
+                        <div class="col-lg-3 col-xs-6">
+                            <!-- small box -->
+                            <div class="small-box bg-light-blue">
+                                <div class="inner">
+                                    <h3>Course 3</h3>
+                                    <p>Course Details</p>
+                                </div>
+                                <div class="icon">
+                                    <i class="ion ion-ios-book"></i>
+                                </div>
+                                <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+                            </div>
                         </div>
-                        <div class="row">
-                            <div class="Course_block col-lg-3 col-xs-6">
-                                <!-- small box -->
-                                <div class="small-box bg-aqua">
-                                    <div class="inner">
-                                        <h3><a href="#"><span style="color:white">4</span></a></h3>
-                                        <p>MscIT</p>
-                                    </div>
-
-                                    <a href="../Student/Courses_details.jsp" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+                        <div class="col-lg-3 col-xs-6">
+                            <!-- small box -->
+                            <div class="small-box bg-light-blue">
+                                <div class="inner">
+                                    <h3>Course 3</h3>
+                                    <p>Course Details</p>
                                 </div>
-                            </div><!-- ./col -->
-                            <div class="Course_block col-lg-3 col-xs-6">
-                                <!-- small box -->
-                                <div class="small-box bg-green">
-                                    <div class="inner">
-                                        <h3><a href="#"><span style="color:white">5</span></a></h3>
-                                        <p>MscIT</p>
-                                    </div>
-
-                                    <a href="../Student/Courses_details.jsp" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+                                <div class="icon">
+                                    <i class="ion ion-ios-book"></i>
                                 </div>
-                            </div><!-- ./col -->
-                            <div class="Course_block col-lg-3 col-xs-6">
-                                <!-- small box -->
-                                <div class="small-box bg-yellow">
-                                    <div class="inner">
-                                        <h3><a href="#"><span style="color:white">6</span></a></h3>
-                                        <p>MscIT</p>
-                                    </div>
-
-                                    <a href="../Student/Courses_details.jsp" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+                                <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+                            </div>
+                        </div><!-- ./col -->
+                    </div><!-- ./col -->
+                                       <div class="row">
+                        <div class="col-lg-3 col-xs-6">
+                            <!-- small box -->
+                            <div class="small-box bg-light-blue-active">
+                                <div class="inner">
+                                    <h3>Course 1</h3>
+                                    <p>Course Details</p>
                                 </div>
-                            </div><!-- ./col -->
+                                <div class="icon">
+                                    <i class="ion-ios-book"></i>
+                                </div>
+                                <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+                            </div>
+                        </div><!-- ./col -->
+                        <div class="col-lg-3 col-xs-6 ">
+                            <!-- small box -->
+                            <div class="small-box bg-light-blue">
+                                <div class="inner">
+                                    <h3>Course 2<sup style="font-size: 20px"></sup></h3>
+                                    <p>Course Details</p>
+                                </div>
+                                <div class="icon">
+                                    <i class="ion ion-ios-book"></i>
+                                </div>
+                                <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+                            </div>
+                        </div><!-- ./col -->
+                        <div class="col-lg-3 col-xs-6">
+                            <!-- small box -->
+                            <div class="small-box bg-light-blue">
+                                <div class="inner">
+                                    <h3>Course 3</h3>
+                                    <p>Course Details</p>
+                                </div>
+                                <div class="icon">
+                                    <i class="ion ion-ios-book"></i>
+                                </div>
+                                <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-xs-6">
+                            <!-- small box -->
+                            <div class="small-box bg-light-blue">
+                                <div class="inner">
+                                    <h3>Course 3</h3>
+                                    <p>Course Details</p>
+                                </div>
+                                <div class="icon">
+                                    <i class="ion ion-ios-book"></i>
+                                </div>
+                                <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+                            </div>
+                        </div><!-- ./col -->
+                    </div><!-- ./col -->
+                    <!-- Main row -->
 
-                        </div><!-- /.row -->
-                        <!-- Main row -->
-
-                    </section><!-- /.content -->
-                </center>
+                </section><!-- /.content -->
             </div><!-- /.content-wrapper -->
             <footer class="main-footer">
                 <div class="pull-right hidden-xs">
