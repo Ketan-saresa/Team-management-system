@@ -312,14 +312,14 @@
                     <!-- sidebar menu: : style can be found in sidebar.less -->
                     <ul class="sidebar-menu">
                         <li class="header">MAIN NAVIGATION</li>
-                        <li class="active treeview">
-                            <a href="index.jsp">
+                        <li class="treeview">
+                            <a href="../tms/index.jsp">
                                 <i class="fa fa-dashboard"></i> <span>Dashboard</span> </i>
                             </a>
 
                         </li>
-                        <li class="treeview">
-                            <a href="#">
+                        <li class="active treeview">
+                            <a href="../tms/Student/My Courses.jsp">
                                 <i class="fa fa-book"></i>
                                 <span>Courses</span>
                             </a>
@@ -352,137 +352,129 @@
                     <h1>My Courses
                     </h1>
                     <ol class="breadcrumb">
-                        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+                        <li><a href="../index.jsp"><i class="fa fa-dashboard"></i> Home</a></li>
                         <li class="active">My Courses</li>
-
                     </ol>
                 </section>
-
-                <form action="" class="navbar-form ">
-                    <div class="input-group navbar-right" style="margin-right: -2%;width: 33%">
-                        <input type="Search" placeholder="Search..." class="form-control" />
-                        <div class="input-group-btn">
-                            <button class="btn btn-info">
-                                <span class="glyphicon glyphicon-search"></span>
-                            </button>
+                <div class="row">
+                    <form action="../Student/Search.jsp" class="navbar-form ">
+                        <div class="input-group navbar-right" style="margin-right: 0.5%;width: 20%">
+                            <input type="Search" placeholder="Search..." class="form-control" />
+                            <div class="input-group-btn">
+                                <button class="btn btn-info" style="width: 40px;height: 34px;">
+                                    <span class="glyphicon glyphicon-search"></span>
+                                </button>
+                            </div>
                         </div>
-                    </div>
-                </form>
-                <br/>
-                <br/>
-                <!-- Main content -->
-                <section class="content middle">
+                    </form>
+                    <br/>
+                    <br/>
+                </div>
+         <!-- Main content -->
+                <section class="content">
                     <!-- Small boxes (Stat box) -->
                     <div class="row">
                         <div class="col-lg-3 col-xs-6">
-                            <!-- small box -->
                             <div class="small-box bg-light-blue-active">
                                 <div class="inner">
-                                    <h3>Course 1</h3>
-                                    <p>Course Details</p>
+                                    <h3>Course</h3>
+                                    <p>1</p>
                                 </div>
                                 <div class="icon">
                                     <i class="ion-ios-book"></i>
                                 </div>
-                                <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
-                            </div>
-                        </div><!-- ./col -->
-                        <div class="col-lg-3 col-xs-6 ">
-                            <!-- small box -->
-                            <div class="small-box bg-light-blue">
-                                <div class="inner">
-                                    <h3>Course 2<sup style="font-size: 20px"></sup></h3>
-                                    <p>Course Details</p>
-                                </div>
-                                <div class="icon">
-                                    <i class="ion ion-ios-book"></i>
-                                </div>
-                                <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+                                <a href="../Student/Courses_details.jsp" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
                             </div>
                         </div><!-- ./col -->
                         <div class="col-lg-3 col-xs-6">
-                            <!-- small box -->
-                            <div class="small-box bg-light-blue">
+                            <div class="small-box bg-light-blue-active">
                                 <div class="inner">
-                                    <h3>Course 3</h3>
-                                    <p>Course Details</p>
+                                    <h3>Course</h3>
+                                    <p>2</p>
                                 </div>
                                 <div class="icon">
-                                    <i class="ion ion-ios-book"></i>
+                                    <i class="ion-ios-book"></i>
                                 </div>
-                                <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+                                <a href="../Student/Courses_details.jsp" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
                             </div>
-                        </div>
+                        </div><!-- ./col -->
                         <div class="col-lg-3 col-xs-6">
-                            <!-- small box -->
-                            <div class="small-box bg-light-blue">
+                            <div class="small-box bg-light-blue-active">
                                 <div class="inner">
-                                    <h3>Course 3</h3>
-                                    <p>Course Details</p>
+                                    <h3>Course</h3>
+                                    <p>3</p>
                                 </div>
                                 <div class="icon">
-                                    <i class="ion ion-ios-book"></i>
+                                    <i class="ion-ios-book"></i>
                                 </div>
-                                <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+                                <a href="../Student/Courses_details.jsp" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+                            </div>
+                        </div><!-- ./col -->
+                        <div class="col-lg-3 col-xs-6">
+                            <div class="small-box bg-light-blue-active">
+                                <div class="inner">
+                                    <h3>Course</h3>
+                                    <p>4</p>
+                                </div>
+                                <div class="icon">
+                                    <i class="ion-ios-book"></i>
+                                </div>
+                                <a href="../Student/Courses_details.jsp" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
                             </div>
                         </div><!-- ./col -->
                     </div><!-- ./col -->
-                                       <div class="row">
+                    <div class="row">
                         <div class="col-lg-3 col-xs-6">
-                            <!-- small box -->
                             <div class="small-box bg-light-blue-active">
                                 <div class="inner">
-                                    <h3>Course 1</h3>
-                                    <p>Course Details</p>
+                                    <h3>Course</h3>
+                                    <p>1</p>
                                 </div>
                                 <div class="icon">
                                     <i class="ion-ios-book"></i>
                                 </div>
-                                <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
-                            </div>
-                        </div><!-- ./col -->
-                        <div class="col-lg-3 col-xs-6 ">
-                            <!-- small box -->
-                            <div class="small-box bg-light-blue">
-                                <div class="inner">
-                                    <h3>Course 2<sup style="font-size: 20px"></sup></h3>
-                                    <p>Course Details</p>
-                                </div>
-                                <div class="icon">
-                                    <i class="ion ion-ios-book"></i>
-                                </div>
-                                <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+                                <a href="../Student/Courses_details.jsp" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
                             </div>
                         </div><!-- ./col -->
                         <div class="col-lg-3 col-xs-6">
-                            <!-- small box -->
-                            <div class="small-box bg-light-blue">
+                            <div class="small-box bg-light-blue-active">
                                 <div class="inner">
-                                    <h3>Course 3</h3>
-                                    <p>Course Details</p>
+                                    <h3>Course</h3>
+                                    <p>2</p>
                                 </div>
                                 <div class="icon">
-                                    <i class="ion ion-ios-book"></i>
+                                    <i class="ion-ios-book"></i>
                                 </div>
-                                <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-xs-6">
-                            <!-- small box -->
-                            <div class="small-box bg-light-blue">
-                                <div class="inner">
-                                    <h3>Course 3</h3>
-                                    <p>Course Details</p>
-                                </div>
-                                <div class="icon">
-                                    <i class="ion ion-ios-book"></i>
-                                </div>
-                                <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+                                <a href="../Student/Courses_details.jsp" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
                             </div>
                         </div><!-- ./col -->
+                        <div class="col-lg-3 col-xs-6">
+                            <div class="small-box bg-light-blue-active">
+                                <div class="inner">
+                                    <h3>Course</h3>
+                                    <p>3</p>
+                                </div>
+                                <div class="icon">
+                                    <i class="ion-ios-book"></i>
+                                </div>
+                                <a href="../Student/Courses_details.jsp" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+                            </div>
+                        </div><!-- ./col -->   
+                        <div class="col-lg-3 col-xs-6">
+                            <div class="small-box bg-light-blue-active">
+                                <div class="inner">
+                                    <h3>Course</h3>
+                                    <p>4</p>
+                                </div>
+                                <div class="icon">
+                                    <i class="ion-ios-book"></i>
+                                </div>
+                                <a href="../Student/Courses_details.jsp" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+                            </div>
+                        </div><!-- ./col -->
+
                     </div><!-- ./col -->
                     <!-- Main row -->
-
                 </section><!-- /.content -->
             </div><!-- /.content-wrapper -->
             <footer class="main-footer">

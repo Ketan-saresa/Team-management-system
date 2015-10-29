@@ -323,7 +323,7 @@
               
             </li>
             <li class="treeview">
-              <a href="#">
+              <a href="../tms/Student/My Courses.jsp">
                 <i class="fa fa-book"></i>
                 <span>Courses</span>
               </a>

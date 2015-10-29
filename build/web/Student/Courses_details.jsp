@@ -312,13 +312,13 @@
                     <ul class="sidebar-menu">
                         <li class="header">MAIN NAVIGATION</li>
                         <li class="active treeview">
-                            <a href="index.jsp">
+                            <a href="../index.jsp">
                                 <i class="fa fa-dashboard"></i> <span>Dashboard</span> </i>
                             </a>
 
                         </li>
                         <li class="treeview">
-                            <a href="#">
+                            <a href="../Student/My Courses.jsp">
                                 <i class="fa fa-book"></i>
                                 <span>Courses</span>
                             </a>
@@ -343,23 +343,32 @@
                 </section>
                 <!-- /.sidebar -->
             </aside>
-
-            <!-- Content Wrapper. Contains page content -->
             <div class="content-wrapper">
                 <!-- Content Header (Page header) -->
                 <section class="content-header">
-                    <h3>
-                        <ol class="breadcrumb">
-                            <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-                            <li><a href="MyCourses.html"> MyCourses</a></li>
-                            <li class="active">Course1</li>
-
-
-                        </ol>
-                    </h3> 
+                    <h1>Courses Details
+                    </h1>
+                    <ol class="breadcrumb">
+                        <li><a href="../index.jsp"><i class="fa fa-dashboard"></i> Home</a></li>
+                        <li><a href="../Student/My Courses.jsp">My Courses</a></li>
+                        <li class="active">Courses Details</li>>
+                    </ol>
                 </section>
+                <div class="row">
+                    <form action="" class="navbar-form ">
+                        <div class="input-group navbar-right" style="margin-right: 0.5%;width: 20%">
+                            <input type="Search" placeholder="Search..." class="form-control" />
+                            <div class="input-group-btn">
+                                <button class="btn btn-info" style="width: 40px;height: 34px;">
+                                    <span class="glyphicon glyphicon-search"></span>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                    <br/>
+                    <br/>
 
-                <br/>
+                </div>
                 <section class="col-lg-7 connectedSortable">
                     <div class="box box-primary" style="width: 150%;margin-left: 10%;margin-right: 5%;">
                         <div class="box-header">
